@@ -4,10 +4,10 @@
 В designHeaderMenuOuter добавила:
 <ul class="tabs menu">[[+wf.wrapper]]</ul>
 В designHeaderMenuRow добавила:
-<li [[+wf.classes]]="">[[+wf.linktext]][[+wf.wrapper]]</li>
+<li><a href="[[+wf.link]]" title="[[+wf.title]]" [[+wf.classes]] [[+wf.attributes]]>[[+wf.linktext]]</a>[[+wf.wrapper]]</li>
 В designHeaderMenuInner:
 <ul>[[+wf.wrapper]]</ul>
 В designHeaderMenuInnerRow:
-<li [[+wf.classes]]="">[[+wf.linktext]][[+wf.wrapper]]</li>
+<li><a href="[[+wf.link]]" title="[[+wf.title]]" [[+wf.attributes]]>[[+wf.linktext]]</a>[[+wf.wrapper]]</li>
 В designHeaderMenuOuter2:
 <ul class="child">[[+wf.wrapper]]</ul>
