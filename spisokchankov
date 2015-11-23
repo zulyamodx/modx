@@ -1,0 +1,13 @@
+Честно говоря, не поняла, что имеете ввиду.
+Может речь идеть о чанках?
+У меня чанки для меню созданы таким образом:
+В designHeaderMenuOuter добавила:
+<ul class="tabs menu">[[+wf.wrapper]]</ul>
+В designHeaderMenuRow добавила:
+<li [[+wf.classes]]="">[[+wf.linktext]][[+wf.wrapper]]</li>
+В designHeaderMenuInner:
+<ul>[[+wf.wrapper]]</ul>
+В designHeaderMenuInnerRow:
+<li [[+wf.classes]]="">[[+wf.linktext]][[+wf.wrapper]]</li>
+В designHeaderMenuOuter2:
+<ul class="child">[[+wf.wrapper]]</ul>
